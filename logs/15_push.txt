@@ -7,4 +7,4 @@ ubuntu@codespaces-be8d23:/home/ubuntu/lab-control-acceso-linux$ gh repo create l
 GraphQL: diego-walles does not have the correct permissions to execute `CreateRepository` (createRepository)
 ubuntu@codespaces-be8d23:/home/ubuntu/lab-control-acceso-linux$ git remote -v
 ubuntu@codespaces-be8d23:/home/ubuntu/lab-control-acceso-linux$ git log --oneline -1
-8ac514a Lab Control de Acceso en Linux — ejecución real en Codespace
+6c78c30 Lab Control de Acceso en Linux — ejecución real en Codespace
