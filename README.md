@@ -58,4 +58,4 @@ usuario2 y usuario3 tienen la MISMA clave pero hashes distintos por la **sal**.
 **7.6 (*)** Dar rwx solo a usuario2 sin tocar grupo/otros — imposible en el modelo tradicional.
 
 ## Uso de herramientas de IA generativa
-Se usó un asistente de IA (Cursor) para teoría, generación inicial de scripts y automatización de la ejecución/captura. Todo se **ejecutó realmente** en el Codespace; los logs en `logs/` son prueba. Aportes propios: tema, ejecución/validación real y revisión contra el material del curso.
+Se usó un asistente de IA (MANU) para teoría, y generación inicial de scripts y captura de pruebas. Todo se **ejecutó realmente** en el Codespace, los logs en `logs/` son prueba. Aportes propios: tema, ejecución, validación y revisión contra el material del curso.
