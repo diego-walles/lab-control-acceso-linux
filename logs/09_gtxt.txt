@@ -1,0 +1,11 @@
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo -u usuario2 bash -c 'umask 002; touch /home/usuario2/g.txt'
+diegowalles@codespaces-be8d23:/workspaces/211154733$ ls -l /home/usuario2/g.txt
+-rw-rw-r-- 1 usuario2 usuario2 10 sep 13 21:29 /home/usuario2/g.txt
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo -u usuario1 id
+uid=1002(usuario1) gid=1003(usuario1) groups=1003(usuario1),1004(usuario2)
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo -u usuario1 ls -l /home/usuario2/g.txt
+-rw-rw-r-- 1 usuario2 usuario2 10 sep 13 21:29 /home/usuario2/g.txt
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo -u usuario1 bash -c 'echo hola >> /home/usuario2/g.txt'
+(escritura de CONTENIDO: OK, grupo rw)
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo -u usuario1 rm /home/usuario2/g.txt
+rm: cannot remove '/home/usuario2/g.txt': Permission denied

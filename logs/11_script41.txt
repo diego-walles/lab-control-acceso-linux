@@ -1,0 +1,11 @@
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod +x permisos_archivo.sh
+diegowalles@codespaces-be8d23:/home/diegowalles$ sudo -u usuario2 bash -c "umask 002; touch /home/usuario2/g.txt"
+diegowalles@codespaces-be8d23:/home/diegowalles$ ./permisos_archivo.sh /home/usuario2/g.txt
+Archivo: /home/usuario2/g.txt (propietario=usuario2, grupo=usuario2, permisos=664 rw-rw-r--)
+Lista (usuario, permisos):
+(root, r--)
+(ubuntu, r--)
+(diegowalles, r--)
+(usuario1, rw-)
+(usuario2, rw-)
+(usuario3, r--)

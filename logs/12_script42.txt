@@ -1,0 +1,13 @@
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod +x usuarios_activos.sh
+diegowalles@codespaces-be8d23:/home/diegowalles$ ./usuarios_activos.sh
+=== Usuarios con sesion activa (who) ===
+
+=== Usuarios ejecutando procesos (ps) ===
+diegowalles
+root
+ubuntu
+
+=== Union: usuarios con actividad en el sistema ===
+diegowalles
+root
+ubuntu

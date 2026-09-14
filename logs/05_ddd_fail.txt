@@ -1,0 +1,9 @@
+diegowalles@codespaces-be8d23:/home/diegowalles$ mkdir ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod a-rwx ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod u+rw ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod g+r ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod o+r ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ ls -ld ddd
+drw-r--r-- 2 diegowalles diegowalles 4096 sep 13 21:15 ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ cd ddd
+/tmp/lab_steps/05_ddd_fail.sh: line 11: cd: ddd: Permission denied

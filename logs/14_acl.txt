@@ -1,0 +1,26 @@
+usuario1@codespaces-be8d23:/home/usuario1$ getfacl --version | head -1
+getfacl 2.3.2
+usuario1@codespaces-be8d23:/home/usuario1$ touch lista.txt
+usuario1@codespaces-be8d23:/home/usuario1$ getfacl lista.txt
+# file: lista.txt
+# owner: usuario1
+# group: usuario1
+user::rw-
+user:usuario2:rwx
+group::---
+mask::rwx
+other::---
+
+usuario1@codespaces-be8d23:/home/usuario1$ setfacl -m u:usuario2:rwx lista.txt
+usuario1@codespaces-be8d23:/home/usuario1$ ls -l lista.txt
+-rw-rwx---+ 1 usuario1 usuario1 0 sep 13 21:29 lista.txt
+usuario1@codespaces-be8d23:/home/usuario1$ getfacl lista.txt
+# file: lista.txt
+# owner: usuario1
+# group: usuario1
+user::rw-
+user:usuario2:rwx
+group::---
+mask::rwx
+other::---
+

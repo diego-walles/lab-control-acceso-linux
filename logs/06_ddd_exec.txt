@@ -1,0 +1,5 @@
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod u+x ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ ls -ld ddd
+drwxr--r-- 2 diegowalles diegowalles 4096 sep 13 21:15 ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ cd ddd; pwd
+/home/diegowalles/ddd

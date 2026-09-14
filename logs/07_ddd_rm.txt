@@ -1,0 +1,12 @@
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod 755 ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ touch ddd/f.txt
+diegowalles@codespaces-be8d23:/home/diegowalles$ ls -l ddd
+total 0
+-rw------- 1 diegowalles diegowalles 0 sep 13 21:29 f.txt
+diegowalles@codespaces-be8d23:/home/diegowalles$ chmod 555 ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ ls -ld ddd
+dr-xr-xr-x 2 diegowalles diegowalles 4096 sep 13 21:15 ddd
+diegowalles@codespaces-be8d23:/home/diegowalles$ ls ddd
+f.txt
+diegowalles@codespaces-be8d23:/home/diegowalles$ rm ddd/f.txt
+rm: cannot remove 'ddd/f.txt': Permission denied

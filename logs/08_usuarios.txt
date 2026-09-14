@@ -1,0 +1,9 @@
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo useradd -m -s /bin/bash usuario1
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo useradd -m -s /bin/bash usuario2
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo chmod 755 /home/usuario1 /home/usuario2
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo adduser usuario1 usuario2
+Adding user usuario1 to group usuario2 ... Done.
+diegowalles@codespaces-be8d23:/workspaces/211154733$ id usuario1
+uid=1002(usuario1) gid=1003(usuario1) groups=1003(usuario1),1004(usuario2)
+diegowalles@codespaces-be8d23:/workspaces/211154733$ getent group usuario2
+usuario2:x:1004:usuario1

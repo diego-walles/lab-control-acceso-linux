@@ -1,0 +1,10 @@
+ubuntu@codespaces-be8d23:/home/ubuntu/lab-control-acceso-linux$ gh auth status
+github.com
+  ✓ Logged in to github.com account diego-walles (GITHUB_TOKEN)
+  - Active account: true
+  - Git operations protocol: https
+ubuntu@codespaces-be8d23:/home/ubuntu/lab-control-acceso-linux$ gh repo create lab-control-acceso-linux --public --source=. --push
+GraphQL: diego-walles does not have the correct permissions to execute `CreateRepository` (createRepository)
+ubuntu@codespaces-be8d23:/home/ubuntu/lab-control-acceso-linux$ git remote -v
+ubuntu@codespaces-be8d23:/home/ubuntu/lab-control-acceso-linux$ git log --oneline -1
+8ac514a Lab Control de Acceso en Linux — ejecución real en Codespace

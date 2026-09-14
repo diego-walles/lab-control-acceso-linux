@@ -1,0 +1,8 @@
+diegowalles@codespaces-be8d23:/home/diegowalles$ umask
+0077
+diegowalles@codespaces-be8d23:/home/diegowalles$ touch miarchivo.txt
+diegowalles@codespaces-be8d23:/home/diegowalles$ ls -l miarchivo.txt
+-rw------- 1 diegowalles diegowalles 0 sep 13 21:28 miarchivo.txt
+diegowalles@codespaces-be8d23:/home/diegowalles$ mkdir midir
+diegowalles@codespaces-be8d23:/home/diegowalles$ ls -ld midir
+drwx------ 2 diegowalles diegowalles 4096 sep 13 21:15 midir

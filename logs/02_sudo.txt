@@ -1,0 +1,16 @@
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo -n grep -vE "^#|^$" /etc/sudoers
+Defaults	env_reset
+Defaults	mail_badpass
+Defaults	!secure_path
+Defaults	use_pty
+root	ALL=(ALL:ALL) ALL
+%admin ALL=(ALL) ALL
+%sudo	ALL=(ALL:ALL) ALL
+@includedir /etc/sudoers.d
+ubuntu ALL=(ALL) NOPASSWD:ALL
+Defaults umask_override
+Defaults umask=0022
+diegowalles@codespaces-be8d23:/workspaces/211154733$ getent group sudo
+sudo:x:27:
+diegowalles@codespaces-be8d23:/workspaces/211154733$ id -nG
+diegowalles

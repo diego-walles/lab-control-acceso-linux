@@ -1,0 +1,9 @@
+diegowalles@codespaces-be8d23:/workspaces/211154733$ lsb_release -a
+diegowalles@codespaces-be8d23:/workspaces/211154733$ whoami
+diegowalles
+diegowalles@codespaces-be8d23:/workspaces/211154733$ id
+uid=1001(diegowalles) gid=1002(diegowalles) groups=1002(diegowalles)
+diegowalles@codespaces-be8d23:/workspaces/211154733$ echo $HOME
+/home/diegowalles
+diegowalles@codespaces-be8d23:/workspaces/211154733$ cd $HOME; pwd
+/home/diegowalles

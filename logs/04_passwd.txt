@@ -1,0 +1,13 @@
+diegowalles@codespaces-be8d23:/workspaces/211154733$ head -5 /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+diegowalles@codespaces-be8d23:/workspaces/211154733$ tail -4 /etc/passwd
+diegowalles:x:1001:1002::/home/diegowalles:/bin/bash
+usuario1:x:1002:1003::/home/usuario1:/bin/bash
+usuario2:x:1003:1004::/home/usuario2:/bin/bash
+usuario3:x:1004:1005::/home/usuario3:/bin/bash
+diegowalles@codespaces-be8d23:/workspaces/211154733$ ls -l /etc/passwd
+-rw-r--r-- 1 root root 1153 sep 13 21:16 /etc/passwd

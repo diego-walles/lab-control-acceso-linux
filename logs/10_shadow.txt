@@ -1,0 +1,5 @@
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo useradd -m -s /bin/bash usuario3   # misma clave que usuario2
+diegowalles@codespaces-be8d23:/workspaces/211154733$ sudo grep -E "usuario[123]" /etc/shadow
+usuario1:$y$j9T$v8b9Szg9YjC3pj9s8GZrT/$aUF1BIY.qd0BegjbM56zkUV5PWurPz5YRicw6K.dVp7:20710:0:99999:7:::
+usuario2:$y$j9T$oI2AFz82ecxbMcdAVfGFY.$QXie4TGGY2jjb1rtnrxMEqwJfALYQMaAhS6eH/Pa924:20710:0:99999:7:::
+usuario3:$y$j9T$H8WYU2izkhZ6ySn2K6/Fv/$4oSYcCLfP5zxe55nRiXo5TCuHeM6R8gJ15qa9It0irA:20710:0:99999:7:::
